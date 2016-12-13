@@ -7,11 +7,11 @@ Le repository "l10n_mg" a été viré et effacé de github car n'a pas évolué 
 ## Objectifs principaux:
 * Fournir les localisations en Malagasy et dans la législation Malagasy les guides du PCG 2005
 * Fournir autant que possible des modules spécifiques à MG
-* Réunir autour de ce projet des bonnes volontés (dév, experts...) pour le financer, l'améliorer et le rendre meilleur.
+* Réunir autour de ce projet des bonnes volontés (dév, experts...) pour l'améliorer et le rendre meilleur.
+* Apprendre aux nationaux de partager et investir dans l'opensource
 
 ## odoo et le l10n_mg :
-* Toujours utiliser odoo quelle que soit la nature de votre entreprise: cycle achats, cycle production, cycle de vente, comptabilisation des dépenses, recettes, opérations diverses...
-* Nous nous efforcerons de produire les états relatifs à la nature de votre société et surtout à vos obligations.
+Toujours utiliser odoo quelle que soit la nature de votre entreprise: cycle achats, cycle production, cycle de vente, comptabilisation des dépenses, recettes, opérations diverses...
 
 # Usage
 
@@ -26,11 +26,14 @@ Le repository "l10n_mg" a été viré et effacé de github car n'a pas évolué 
   * l10n_mg_tpe : si vous avez une petite société que vous pouvez gérer avec le Système minimal de trésorerie
 * Vous pouvez installer autres modules s'il y en a plus tard !
 
-#Known issues / Roadmap
+# Known issues / Roadmap
 
-* TODO: validation par des spécialistes en comptabilité et finances et droits fiscaux Malagasy
-* TODO: revue des textes, titres, libellés, mots par des experts
-* TODO: reportings spécifiques
+* [] Livrer les codes complets en v9
+* [] Livrer les codes complets en v10
+* [] Revoir la licence
+* SOUHAIT: validation par des spécialistes en comptabilité et finances et droits fiscaux Malagasy
+* SOUHAIT: revue des textes, titres, libellés, mots par des experts
+* SOUHAIT: reportings spécifiques
 
 # Credits
 
