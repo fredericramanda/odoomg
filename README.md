@@ -28,9 +28,9 @@ Toujours utiliser odoo quelle que soit la nature de votre entreprise: cycle acha
 
 # Known issues / Roadmap
 
-* [] Livrer les codes complets en v9
-* [] Livrer les codes complets en v10
-* [] Revoir la licence
+* [ ] Livrer les codes complets en v9
+* [ ] Livrer les codes complets en v10
+* [ ] Revoir la licence
 * SOUHAIT: validation par des spécialistes en comptabilité et finances et droits fiscaux Malagasy
 * SOUHAIT: revue des textes, titres, libellés, mots par des experts
 * SOUHAIT: reportings spécifiques
