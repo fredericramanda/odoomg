@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="fpos_assujetti" model="account.fiscal.position.template">
+    <field name="name">Assujetti</field>
+    <field name="code">Régime National assujetti (client/frns)</field>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="fpos_non_assujetti" model="account.fiscal.position.template">
+    <field name="name">NonAssujetti</field>
+    <field name="code">Régime National non assujetti (client/frns)</field>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="fpos_non_taxe" model="account.fiscal.position.template">
+    <field name="name">NonTaxe</field>
+    <field name="code">Régime National non taxé (client)</field>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="fpos_avec_ad" model="account.fiscal.position.template">
+    <field name="name">AvecAD</field>
+    <field name="code">National Avec Attestation Destination (client)</field>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="fpos_etat_malagasy" model="account.fiscal.position.template">
+    <field name="name">EtatMalagasy</field>
+    <field name="code">Etat malagasy (client)</field>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="fpos_import_export" model="account.fiscal.position.template">
+    <field name="name">Import/Export</field>
+    <field name="code">Régime Reste du monde (client/frns)</field>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="fpos_non_assujetti_tax_tax_tva_ded_20_biens" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_non_assujetti"/>
+    <field name="tax_src_id" ref="tax_tva_ded_20_biens"/>
+    <field name="tax_dest_id" ref="tax_tva_ded_0_achat"/>
+  </record>
+  <record id="fpos_non_assujetti_tax_tax_tva_ded_20_immo" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_non_assujetti"/>
+    <field name="tax_src_id" ref="tax_tva_ded_20_immo"/>
+    <field name="tax_dest_id" ref="tax_tva_ded_0_achat"/>
+  </record>
+  <record id="fpos_non_assujetti_tax_tax_tva_ded_20_service" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_non_assujetti"/>
+    <field name="tax_src_id" ref="tax_tva_ded_20_service"/>
+    <field name="tax_dest_id" ref="tax_tva_ded_0_achat"/>
+  </record>
+  <record id="fpos_non_taxe_tax_tax_tva_coll_20_normale" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_non_taxe"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_normale"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_autre"/>
+  </record>
+  <record id="fpos_non_taxe_tax_tax_tva_coll_20_immo" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_non_taxe"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_immo"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_autre"/>
+  </record>
+  <record id="fpos_non_taxe_tax_tax_tva_coll_20_diverse" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_non_taxe"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_diverse"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_autre"/>
+  </record>
+  <record id="fpos_avec_ad_tax_tax_tva_coll_20_normale" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_avec_ad"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_normale"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_ad"/>
+  </record>
+  <record id="fpos_avec_ad_tax_tax_tva_coll_20_immo" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_avec_ad"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_immo"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_ad"/>
+  </record>
+  <record id="fpos_avec_ad_tax_tax_tva_coll_20_diverse" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_avec_ad"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_diverse"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_ad"/>
+  </record>
+  <record id="fpos_import_export_tax_tax_tva_coll_20_normale" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_import_export"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_normale"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_export"/>
+  </record>
+  <record id="fpos_import_export_tax_tax_tva_coll_20_immo" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_import_export"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_immo"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_export"/>
+  </record>
+  <record id="fpos_import_export_tax_tax_tva_coll_20_diverse" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_import_export"/>
+    <field name="tax_src_id" ref="tax_tva_coll_20_diverse"/>
+    <field name="tax_dest_id" ref="tax_tva_coll_0_export"/>
+  </record>
+  <record id="fpos_import_export_tax_tax_tva_ded_20_biens" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_import_export"/>
+    <field name="tax_src_id" ref="tax_tva_ded_20_biens"/>
+    <field name="tax_dest_id" ref="tax_tva_ded_0_achat"/>
+  </record>
+  <record id="fpos_import_export_tax_tax_tva_ded_20_immo" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_import_export"/>
+    <field name="tax_src_id" ref="tax_tva_ded_20_immo"/>
+    <field name="tax_dest_id" ref="tax_tva_ded_0_achat"/>
+  </record>
+  <record id="fpos_import_export_tax_tax_tva_ded_20_service" model="account.fiscal.position.tax.template">
+    <field name="position_id" ref="fpos_import_export"/>
+    <field name="tax_src_id" ref="tax_tva_ded_20_service"/>
+    <field name="tax_dest_id" ref="tax_tva_ded_0_achat"/>
+  </record>
+</odoo>

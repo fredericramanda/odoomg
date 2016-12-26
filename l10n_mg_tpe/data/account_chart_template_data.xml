@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="pcg_tpe_10" model="account.account.template">
+    <field name="name">Capital</field>
+    <field name="code">10</field>
+    <field name="user_type_id" ref="account.data_account_type_equity"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_120" model="account.account.template">
+    <field name="name">Résultat de l'exercice (bénéfice)</field>
+    <field name="code">120</field>
+    <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_128" model="account.account.template">
+    <field name="name">Résultat en instance d'affectation</field>
+    <field name="code">128</field>
+    <field name="user_type_id" ref="account.data_unaffected_earnings"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_129" model="account.account.template">
+    <field name="name">Résultat de l'exercice (perte)</field>
+    <field name="code">129</field>
+    <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_13" model="account.account.template">
+    <field name="name">Emprunts</field>
+    <field name="code">13</field>
+    <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_20" model="account.account.template">
+    <field name="name">Immobilisations</field>
+    <field name="code">20</field>
+    <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_31" model="account.account.template">
+    <field name="name">Marchandises</field>
+    <field name="code">31</field>
+    <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_32" model="account.account.template">
+    <field name="name">Produits Fabriqués</field>
+    <field name="code">32</field>
+    <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_33" model="account.account.template">
+    <field name="name">Prouduits et travaux en cours</field>
+    <field name="code">33</field>
+    <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_40" model="account.account.template">
+    <field name="name">Fournisseurs et autres dettes</field>
+    <field name="code">40</field>
+    <field name="user_type_id" ref="account.data_account_type_payable"/>
+    <field name="reconcile" eval="True"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_41" model="account.account.template">
+    <field name="name">Clients et autres créances</field>
+    <field name="code">41</field>
+    <field name="user_type_id" ref="account.data_account_type_receivable"/>
+    <field name="reconcile" eval="True"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_514" model="account.account.template">
+    <field name="name">Chèques postaux</field>
+    <field name="code">514</field>
+    <field name="user_type_id" ref="account.data_account_type_liquidity"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_601" model="account.account.template">
+    <field name="name">Achats</field>
+    <field name="code">601</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_603" model="account.account.template">
+    <field name="name">Variations de stocks (débiteur)</field>
+    <field name="code">603</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_607" model="account.account.template">
+    <field name="name">Variation en-cours commercial (débiteur)</field>
+    <field name="code">607</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_624" model="account.account.template">
+    <field name="name">Transports</field>
+    <field name="code">624</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_63" model="account.account.template">
+    <field name="name">Impôts</field>
+    <field name="code">63</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_64" model="account.account.template">
+    <field name="name">Charges de personnel</field>
+    <field name="code">64</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_65" model="account.account.template">
+    <field name="name">Autres charges</field>
+    <field name="code">65</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_66" model="account.account.template">
+    <field name="name">Charges financières</field>
+    <field name="code">66</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_68" model="account.account.template">
+    <field name="name">Charges calculées d'amortissements</field>
+    <field name="code">68</field>
+    <field name="user_type_id" ref="account.data_account_type_expenses"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_701" model="account.account.template">
+    <field name="name">Ventes</field>
+    <field name="code">701</field>
+    <field name="user_type_id" ref="account.data_account_type_revenue"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_707" model="account.account.template">
+    <field name="name"> Variation en-cours commercial (créditeur)</field>
+    <field name="code">707</field>
+    <field name="user_type_id" ref="account.data_account_type_revenue"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_714" model="account.account.template">
+    <field name="name"> Variation de stocks (créditeur)</field>
+    <field name="code">714</field>
+    <field name="user_type_id" ref="account.data_account_type_revenue"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="pcg_tpe_75" model="account.account.template">
+    <field name="name"> Autres produits</field>
+    <field name="code">75</field>
+    <field name="user_type_id" ref="account.data_account_type_revenue"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_tpe_chart_template"/>
+  </record>
+  <record id="l10n_mg_pcg_tpe_chart_template" model="account.chart.template">
+    <field name="property_account_receivable_id" ref="pcg_tpe_41"/>
+    <field name="property_account_payable_id" ref="pcg_tpe_40"/>
+    <field name="property_account_expense_categ_id" ref="pcg_tpe_601"/>
+    <field name="property_account_income_categ_id" ref="pcg_tpe_701"/>
+    <field name="income_currency_exchange_account_id" ref="pcg_tpe_75"/>
+    <field name="expense_currency_exchange_account_id" ref="pcg_tpe_65"/>
+  </record>
+</odoo>

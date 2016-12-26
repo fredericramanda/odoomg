@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="pcg_mg_581" model="account.account.template">
+    <field name="name">Virements Internes</field>
+    <field name="code">581</field>
+    <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+    <field name="reconcile" eval="True"/>
+  </record>
+  <record id="l10n_mg_pcg_chart_template" model="account.chart.template">
+    <field name="name">Plan comptable general standard avec taxes</field>
+    <field name="currency_id" ref="base.MGA"/>
+    <field name="bank_account_code_prefix">5121</field>
+    <field name="cash_account_code_prefix">5311</field>
+    <field name="transfer_account_id" ref="pcg_mg_581"/>
+  </record>
+  <record id="pcg_mg_581" model="account.account.template">
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+</odoo>

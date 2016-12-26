@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <record id="tax_tva_coll_20_normale" model="account.tax.template">
+    <field name="name">TVA_20</field>
+    <field name="description">TVA collectées sur vente</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44570"/>
+    <field name="refund_account_id" ref="pcg_mg_44570"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">sale</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_20')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_coll_20_immo" model="account.tax.template">
+    <field name="name">TVA_20_IMMO</field>
+    <field name="description">TVA collectees sur production immobilisee ou cessions immo</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44571"/>
+    <field name="refund_account_id" ref="pcg_mg_44571"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">sale</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_20_immo')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_coll_20_diverse" model="account.tax.template">
+    <field name="name">TVA_20_DIVERSE</field>
+    <field name="description">TVA collectees diverses</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44572"/>
+    <field name="refund_account_id" ref="pcg_mg_44572"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">sale</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_20_diverse')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_coll_0_export" model="account.tax.template">
+    <field name="name">TVA_0_EXPORT</field>
+    <field name="description">TVA 0% exports</field>
+    <field name="amount" eval="0"/>
+    <field name="amount_type">percent</field>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">sale</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_0_export')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_coll_0_autre" model="account.tax.template">
+    <field name="name">TVA_0_AUTRE</field>
+    <field name="description">TVA 0% autres opérations non imposables (vente)</field>
+    <field name="amount" eval="0"/>
+    <field name="amount_type">percent</field>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">sale</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_0_autre')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_coll_0_ad" model="account.tax.template">
+    <field name="name">TVA_0_AD</field>
+    <field name="description">TVA 0% opérations avec attestation de destination</field>
+    <field name="amount" eval="0"/>
+    <field name="amount_type">percent</field>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">sale</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_0_ad')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_ded_20_biens" model="account.tax.template">
+    <field name="name">TVA_ACH_20</field>
+    <field name="description">TVA deductibles sur achats</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44560"/>
+    <field name="refund_account_id" ref="pcg_mg_44560"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">purchase</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_ded_20')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_ded_20_imports" model="account.tax.template">
+    <field name="name">TVA_ACH_20_IMPORT</field>
+    <field name="description">TVA deductibles sur importations</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44561"/>
+    <field name="refund_account_id" ref="pcg_mg_44561"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">purchase</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_ded_20_import')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_ded_20_immo" model="account.tax.template">
+    <field name="name">TVA_ACH_20_IMMO</field>
+    <field name="description">TVA deductibles sur immobilisations</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44562"/>
+    <field name="refund_account_id" ref="pcg_mg_44562"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">purchase</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_ded_20_immo')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_ded_20_service" model="account.tax.template">
+    <field name="name">TVA_ACH_20_SERVICE</field>
+    <field name="description">TVA deductibles sur services exterieurs</field>
+    <field name="amount" eval="0.2"/>
+    <field name="amount_type">percent</field>
+    <field name="account_id" ref="pcg_mg_44563"/>
+    <field name="refund_account_id" ref="pcg_mg_44563"/>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">purchase</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_ded_20_service')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="tax_tva_ded_0_achat" model="account.tax.template">
+    <field name="name">TVA_ACH_0_ACHAT</field>
+    <field name="description">TVA 0% achats ou imports</field>
+    <field name="amount" eval="0"/>
+    <field name="amount_type">percent</field>
+    <field name="sequence" eval="10"/>
+    <field name="type_tax_use">purchase</field>
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_ded_0_achat')])]"/>
+    <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
+  </record>
+  <record id="pcg_mg_601" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_6021" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60221" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60222" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60223" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60224" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60225" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60261" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_60265" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_bien')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_607" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_revente')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_biens')])]"/>
+  </record>
+  <record id="pcg_mg_611" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6132" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6135" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6136" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_614" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_615" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_616" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_617" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6181" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6182" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6183" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6231" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6236" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6237" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6238" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6241" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6242" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6243" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6244" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6247" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6248" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6251" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6255" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6256" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6257" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6262" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6271" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6272" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6275" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6276" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_6278" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_628" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_achat_service')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_ded_20_service')])]"/>
+  </record>
+  <record id="pcg_mg_701" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_7012" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca_export')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_0_export')])]"/>
+  </record>
+  <record id="pcg_mg_702" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_703" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_704" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_705" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_706" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_707" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_normale')])]"/>
+  </record>
+  <record id="pcg_mg_721" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca_lasm')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_immo')])]"/>
+  </record>
+  <record id="pcg_mg_722" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca_lasm')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_immo')])]"/>
+  </record>
+  <record id="pcg_mg_752" model="account.account.template">
+    <field name="tag_ids" eval="[(6, 0, [ref('tag_account_ca_cession_immo')])]"/>
+    <field name="tax_ids" eval="[(6, 0, [ref('tax_tva_coll_20_immo')])]"/>
+  </record>
+</odoo>
