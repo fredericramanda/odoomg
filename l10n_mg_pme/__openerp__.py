@@ -17,6 +17,6 @@
     'demo_xml': [],
     'auto_install': False,
     'installable': True,
-    'website': 'https://github.com/redykely/odoo_mg',
+    'website': 'https://github.com/redykely/odoomg',
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
