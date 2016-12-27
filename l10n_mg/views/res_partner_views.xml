@@ -16,9 +16,9 @@
 	            		<group>
 		            		<field name="nif"/>
 		            		<field name="nstat" />
-		            		<field name="ncif"/>
+		            		<field name="cif"/>
 		            		<field name="dcif" />
-		            		<field name="nrcs"/>
+		            		<field name="rcs"/>
 		            		<field name="drcs" />
 	            		</group>
               		</page>
