@@ -265,49 +265,49 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1311" model="account.account.template">
-    <field name="name">Etat</field>
+    <field name="name">Subvention d'équipement - Etat</field>
     <field name="code">1311</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1312" model="account.account.template">
-    <field name="name">Régions</field>
+    <field name="name">Subvention d'équipement - Régions</field>
     <field name="code">1312</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1313" model="account.account.template">
-    <field name="name">Départements</field>
+    <field name="name">Subvention d'équipement - Départements</field>
     <field name="code">1313</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1314" model="account.account.template">
-    <field name="name">Communes</field>
+    <field name="name">Subvention d'équipement - Communes</field>
     <field name="code">1314</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1315" model="account.account.template">
-    <field name="name">Collectivités publiques</field>
+    <field name="name">Subvention d'équipement - Collectivités publiques</field>
     <field name="code">1315</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1316" model="account.account.template">
-    <field name="name">Entreprises publiques</field>
+    <field name="name">Subvention d'équipement - Entreprises publiques</field>
     <field name="code">1316</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1317" model="account.account.template">
-    <field name="name">Entreprises et organismes privés</field>
+    <field name="name">Subvention d'équipement - Entreprises et organismes privés</field>
     <field name="code">1317</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_1318" model="account.account.template">
-    <field name="name">Autres</field>
+    <field name="name">Subvention d'équipement - Autres</field>
     <field name="code">1318</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -457,25 +457,25 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_203" model="account.account.template">
-    <field name="name">Frais de développement immobilisables</field>
+    <field name="name">Immo Incorp: Frais de développement immobilisables</field>
     <field name="code">203</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_204" model="account.account.template">
-    <field name="name">Logiciels informatiques et assimilés</field>
+    <field name="name">Immo Incorp: Logiciels informatiques et assimilés</field>
     <field name="code">204</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_205" model="account.account.template">
-    <field name="name">Concessions et droits similaires, brevets, licences, marques</field>
+    <field name="name">Immo Incorp: Concessions et droits similaires, brevets, licences, marques</field>
     <field name="code">205</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_207" model="account.account.template">
-    <field name="name">Fonds commercial</field>
+    <field name="name">Immo Incorp: Fonds commercial</field>
     <field name="code">207</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -487,13 +487,13 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_211" model="account.account.template">
-    <field name="name">Terrains</field>
+    <field name="name">Immo Corp: Terrains</field>
     <field name="code">211</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_212" model="account.account.template">
-    <field name="name">Agencements et aménagements de terrain</field>
+    <field name="name">Immo Corp: Agencements et aménagements de terrain</field>
     <field name="code">212</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -505,7 +505,7 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2135" model="account.account.template">
-    <field name="name">Installations générales, agencements, aménagements</field>
+    <field name="name">Constructions - Installations générales, agencements, aménagements</field>
     <field name="code">2135</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -625,19 +625,19 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2611" model="account.account.template">
-    <field name="name">Actions</field>
+    <field name="name">Titres de participation - Actions</field>
     <field name="code">2611</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2612" model="account.account.template">
-    <field name="name">Autres titres</field>
+    <field name="name">Titres de participation - Autres titres</field>
     <field name="code">2612</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2618" model="account.account.template">
-    <field name="name">Intérêts courus</field>
+    <field name="name">Titres de participation - Intérêts courus</field>
     <field name="code">2618</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -685,13 +685,13 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2711" model="account.account.template">
-    <field name="name">Actions</field>
+    <field name="name">Titres immobilisés hors portefeuille: Actions</field>
     <field name="code">2711</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2712" model="account.account.template">
-    <field name="name">Autres titres</field>
+    <field name="name">Titres immobilisés hors portefeuille: Autres titres</field>
     <field name="code">2712</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -709,19 +709,19 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2741" model="account.account.template">
-    <field name="name">Prêts participatifs</field>
+    <field name="name">Prêts à + d'un an : Prêts participatifs</field>
     <field name="code">2741</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2742" model="account.account.template">
-    <field name="name">Prêts aux associés</field>
+    <field name="name">Prêts à + d'un an : Prêts aux associés</field>
     <field name="code">2742</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2743" model="account.account.template">
-    <field name="name">Prêts au personnel</field>
+    <field name="name">Prêts à + d'un an : Prêts au personnel</field>
     <field name="code">2743</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -745,7 +745,7 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2751" model="account.account.template">
-    <field name="name">Dépôts</field>
+    <field name="name">Dépôts et cautionnements versés (garantis)</field>
     <field name="code">2751</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -769,55 +769,55 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2803" model="account.account.template">
-    <field name="name">Frais de développement immobilisables</field>
+    <field name="name">Amortissements - Frais de développement immobilisables</field>
     <field name="code">2803</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2804" model="account.account.template">
-    <field name="name">Logiciels informatiques et assimilés</field>
+    <field name="name">Amortissements - Logiciels informatiques et assimilés</field>
     <field name="code">2804</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2805" model="account.account.template">
-    <field name="name">Concessions et droits similaires, brevets, licences, marques</field>
+    <field name="name">Amortissements - Concessions et droits similaires, brevets, licences, marques</field>
     <field name="code">2805</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2807" model="account.account.template">
-    <field name="name">Fonds commercial</field>
+    <field name="name">Amortissements - Fonds commercial</field>
     <field name="code">2807</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2808" model="account.account.template">
-    <field name="name">Autres immobilisations incorporelles</field>
+    <field name="name">Amortissements - Autres immobilisations incorporelles</field>
     <field name="code">2808</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2811" model="account.account.template">
-    <field name="name">Terrains</field>
+    <field name="name">Amortissements - Terrains</field>
     <field name="code">2811</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_2812" model="account.account.template">
-    <field name="name">Agencements et aménagements de terrain</field>
+    <field name="name">Amortissements - Agencements et aménagements de terrain</field>
     <field name="code">2812</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28131" model="account.account.template">
-    <field name="name">Bâtiments</field>
+    <field name="name">Amortissements - Bâtiments</field>
     <field name="code">28131</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28135" model="account.account.template">
-    <field name="name">Installations générales, agencements, aménagements</field>
+    <field name="name">Amortissements - Installations générales, agencements, aménagements</field>
     <field name="code">28135</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -829,55 +829,55 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28154" model="account.account.template">
-    <field name="name">Matériel industriel</field>
+    <field name="name">Amortissements - Matériel industriel</field>
     <field name="code">28154</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28155" model="account.account.template">
-    <field name="name">Outillage industriel</field>
+    <field name="name">Amortissements - Outillage industriel</field>
     <field name="code">28155</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28157" model="account.account.template">
-    <field name="name">Agencements et aménagements du matériel et outillage industriel</field>
+    <field name="name">Amortissements - Agencements et aménagements du matériel et outillage industriel</field>
     <field name="code">28157</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28181" model="account.account.template">
-    <field name="name">Installations générales, agencements, aménagements</field>
+    <field name="name">Amortissements - Installations générales, agencements, aménagements</field>
     <field name="code">28181</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28182" model="account.account.template">
-    <field name="name">Matériel de transport</field>
+    <field name="name">Amortissements - Matériel de transport</field>
     <field name="code">28182</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28183" model="account.account.template">
-    <field name="name">Matériel de bureau et matériel informatique</field>
+    <field name="name">Amortissements - Matériel de bureau et matériel informatique</field>
     <field name="code">28183</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28184" model="account.account.template">
-    <field name="name">Mobilier</field>
+    <field name="name">Amortissements - Mobilier</field>
     <field name="code">28184</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28185" model="account.account.template">
-    <field name="name">Cheptel</field>
+    <field name="name">Amortissements - Cheptel</field>
     <field name="code">28185</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_28186" model="account.account.template">
-    <field name="name">Emballages récupérables</field>
+    <field name="name">Amortissements - Emballages récupérables</field>
     <field name="code">28186</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -1003,31 +1003,31 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_351" model="account.account.template">
-    <field name="name">Produits intermédiaires</field>
+    <field name="name">Stocks : Produits intermédiaires</field>
     <field name="code">351</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_355" model="account.account.template">
-    <field name="name">Produits finis</field>
+    <field name="name">Stocks : Produits finis</field>
     <field name="code">355</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_3581" model="account.account.template">
-    <field name="name">Déchets</field>
+    <field name="name">Stocks : Déchets</field>
     <field name="code">3581</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_3585" model="account.account.template">
-    <field name="name">Rébuts</field>
+    <field name="name">Stocks : Rébuts</field>
     <field name="code">3585</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_3586" model="account.account.template">
-    <field name="name">Matériels de récupération</field>
+    <field name="name">Stocks : Matériels de récupération</field>
     <field name="code">3586</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -1051,43 +1051,43 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_3921" model="account.account.template">
-    <field name="name">Matières consommables</field>
+    <field name="name">Pertes de valeur - Matières consommables</field>
     <field name="code">3921</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_39221" model="account.account.template">
-    <field name="name">Combustibles</field>
+    <field name="name">Pertes de valeur - Combustibles</field>
     <field name="code">39221</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_39222" model="account.account.template">
-    <field name="name">Produits d'entretiens</field>
+    <field name="name">Pertes de valeur - Produits d'entretiens</field>
     <field name="code">39222</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_39223" model="account.account.template">
-    <field name="name">Fournitures d'atelier et d'usine</field>
+    <field name="name">Pertes de valeur - Fournitures d'atelier et d'usine</field>
     <field name="code">39223</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_39224" model="account.account.template">
-    <field name="name">Fournitures de magasin</field>
+    <field name="name">Pertes de valeur - Fournitures de magasin</field>
     <field name="code">39224</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_39225" model="account.account.template">
-    <field name="name">Fournitures de bureau</field>
+    <field name="name">Pertes de valeur - Fournitures de bureau</field>
     <field name="code">39225</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_3926" model="account.account.template">
-    <field name="name">Emballages</field>
+    <field name="name">Pertes de valeur - Emballages</field>
     <field name="code">3926</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -1326,14 +1326,14 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4286" model="account.account.template">
-    <field name="name">Charges à payer</field>
+    <field name="name">Personnel, Charges à payer</field>
     <field name="code">4286</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4287" model="account.account.template">
-    <field name="name">Produits à recevoir</field>
+    <field name="name">Personnel, Produits à recevoir</field>
     <field name="code">4287</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
@@ -1361,28 +1361,28 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4386" model="account.account.template">
-    <field name="name">Charges à payer</field>
+    <field name="name">Organismes sociaux : Charges à payer</field>
     <field name="code">4386</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4387" model="account.account.template">
-    <field name="name">Produits à recevoir</field>
+    <field name="name">Organismes sociaux : Produits à recevoir</field>
     <field name="code">4387</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4411" model="account.account.template">
-    <field name="name">Subventions d'investissement</field>
+    <field name="name">Etat : Subventions d'investissement</field>
     <field name="code">4411</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4417" model="account.account.template">
-    <field name="name">Subventions d'exploitation</field>
+    <field name="name">Etat : Subventions d'exploitation</field>
     <field name="code">4417</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
@@ -1499,14 +1499,14 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4486" model="account.account.template">
-    <field name="name">Charges à payer</field>
+    <field name="name">Etat : Charges à payer</field>
     <field name="code">4486</field>
     <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4487" model="account.account.template">
-    <field name="name">Produits à recevoir</field>
+    <field name="name">Etat : Produits à recevoir</field>
     <field name="code">4487</field>
     <field name="user_type_id" ref="account.data_account_type_current_assets"/>
     <field name="reconcile" eval="True"/>
@@ -1520,28 +1520,28 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4551" model="account.account.template">
-    <field name="name">Principal</field>
+    <field name="name">Associés - Comptes courants : Principal</field>
     <field name="code">4551</field>
     <field name="user_type_id" ref="account.data_account_type_payable"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4558" model="account.account.template">
-    <field name="name">Intérêts courus</field>
+    <field name="name">Associés - Comptes courants : Intérêts courus</field>
     <field name="code">4558</field>
     <field name="user_type_id" ref="account.data_account_type_payable"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_45611" model="account.account.template">
-    <field name="name">Apport en nature</field>
+    <field name="name">Associés - compte d'apport en société : Apport en nature</field>
     <field name="code">45611</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_45615" model="account.account.template">
-    <field name="name">Apport en numéraire</field>
+    <field name="name">Associés - compte d'apport en société : Apport en numéraire</field>
     <field name="code">45615</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
@@ -1604,14 +1604,14 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4581" model="account.account.template">
-    <field name="name">Opérations courantes</field>
+    <field name="name">Associés, Opérations en commun courantes</field>
     <field name="code">4581</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_4588" model="account.account.template">
-    <field name="name">Intérêts courus</field>
+    <field name="name">Associés, Intérêts courus</field>
     <field name="code">4588</field>
     <field name="user_type_id" ref="account.data_account_type_receivable"/>
     <field name="reconcile" eval="True"/>
@@ -1990,42 +1990,42 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6091" model="account.account.template">
-    <field name="name">Matières premières et fournitures</field>
+    <field name="name">RRRO sur achats : Matières premières et fournitures</field>
     <field name="code">6091</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6092" model="account.account.template">
-    <field name="name">Autres approvisionnements stockés</field>
+    <field name="name">RRRO sur achats : Autres approvisionnements stockés</field>
     <field name="code">6092</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6094" model="account.account.template">
-    <field name="name">Etudes et prestations de services</field>
+    <field name="name">RRRO sur achats : Etudes et prestations de services</field>
     <field name="code">6094</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6095" model="account.account.template">
-    <field name="name">Matériel, équipement et travaux</field>
+    <field name="name">RRRO sur achats : Matériel, équipement et travaux</field>
     <field name="code">6095</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6096" model="account.account.template">
-    <field name="name">Approvisionnements stockés</field>
+    <field name="name">RRRO sur achats : Approvisionnements stockés</field>
     <field name="code">6096</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6097" model="account.account.template">
-    <field name="name">Marchandises</field>
+    <field name="name">RRRO sur achats : Marchandises</field>
     <field name="code">6097</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
@@ -2312,35 +2312,35 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6271" model="account.account.template">
-    <field name="name">Frais sur titres</field>
+    <field name="name">Services bancaires et asssimilés : Frais sur titres</field>
     <field name="code">6271</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6272" model="account.account.template">
-    <field name="name">Commissions et frais sur émission d'emprunts</field>
+    <field name="name">Services bancaires et asssimilés : Commissions et frais sur émission d'emprunts</field>
     <field name="code">6272</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6275" model="account.account.template">
-    <field name="name">Frais sur effets</field>
+    <field name="name">Services bancaires et asssimilés : Frais sur effets</field>
     <field name="code">6275</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6276" model="account.account.template">
-    <field name="name">Location de coffres</field>
+    <field name="name">Services bancaires et asssimilés : Location de coffres</field>
     <field name="code">6276</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_6278" model="account.account.template">
-    <field name="name">Autres frais et commissions sur prestations de services</field>
+    <field name="name">Services bancaires et asssimilés : Autres frais et commissions sur prestations de services</field>
     <field name="code">6278</field>
     <field name="user_type_id" ref="account.data_account_type_expenses"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
@@ -2718,49 +2718,49 @@
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7091" model="account.account.template">
-    <field name="name">Ventes de produits finis</field>
+    <field name="name">RRRA : Ventes de produits finis</field>
     <field name="code">7091</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7092" model="account.account.template">
-    <field name="name">Ventes de produits intermédiaires</field>
+    <field name="name">RRRA : Ventes de produits intermédiaires</field>
     <field name="code">7092</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7094" model="account.account.template">
-    <field name="name">Travaux</field>
+    <field name="name">RRRA : Travaux</field>
     <field name="code">7094</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7095" model="account.account.template">
-    <field name="name">Etudes</field>
+    <field name="name">RRRA : Etudes</field>
     <field name="code">7095</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7096" model="account.account.template">
-    <field name="name">Prestations de services</field>
+    <field name="name">RRRA : Prestations de services</field>
     <field name="code">7096</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7097" model="account.account.template">
-    <field name="name">Ventes de marchandises</field>
+    <field name="name">RRRA : Ventes de marchandises</field>
     <field name="code">7097</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
   </record>
   <record id="pcg_mg_7098" model="account.account.template">
-    <field name="name">Produits des activités annexes</field>
+    <field name="name">RRRA : Produits des activités annexes</field>
     <field name="code">7098</field>
     <field name="user_type_id" ref="account.data_account_type_revenue"/>
     <field name="tag_ids" eval="[(6, 0, [ref('account.account_tag_operating')])]"/>
