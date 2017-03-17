@@ -7,7 +7,7 @@
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44570"/>
     <field name="refund_account_id" ref="pcg_mg_44570"/>
-    <field name="sequence" eval="10"/>
+    <field name="sequence" eval="9"/>
     <field name="type_tax_use">sale</field>
     <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_coll_20')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>
@@ -73,7 +73,7 @@
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44560"/>
     <field name="refund_account_id" ref="pcg_mg_44560"/>
-    <field name="sequence" eval="10"/>
+    <field name="sequence" eval="9"/>
     <field name="type_tax_use">purchase</field>
     <field name="tag_ids" eval="[(6, 0, [ref('tag_tax_tva_ded_20')])]"/>
     <field name="chart_template_id" ref="l10n_mg_pcg_chart_template"/>

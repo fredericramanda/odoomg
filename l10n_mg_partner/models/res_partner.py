@@ -12,12 +12,13 @@ class Partner(models.Model):
     nstat = fields.Char(string='Num STAT', index=True)
 
     # historisable dans une future version
-    ncif = fields.Char(string='Num CIF', index=True)
+    cif = fields.Char(string='Num CIF', index=True)
     dcif = fields.Date(string='Date CIF')
 
     # registre de commerce
-    nrcs = fields.Char(string='Imm. RCS', index=True)
+    rcs = fields.Char(string='Imm. RCS', index=True)
     drcs = fields.Date(string='Date RCS')
 
     # scan signature
     signature_img = fields.Binary('Signature scannee')
+    partner_origin = fields.Selection([('locale','Locale'), ('etrangere','Etrangère')], string='Origine', default='locale', required=True)

@@ -9,6 +9,7 @@
 				<xpath expr="//field[@name='type']" position="before">
 					<field name="ref1"/>
 					<field name="ref2"/>
+					<field name="partner_origin"/>
 				</xpath>
 
 				<xpath expr="//page[@name='sales_purchases']" position="after">
@@ -16,9 +17,9 @@
 	            		<group>
 		            		<field name="nif"/>
 		            		<field name="nstat" />
-		            		<field name="ncif"/>
+		            		<field name="cif"/>
 		            		<field name="dcif" />
-		            		<field name="nrcs"/>
+		            		<field name="rcs"/>
 		            		<field name="drcs" />
 	            		</group>
               		</page>
