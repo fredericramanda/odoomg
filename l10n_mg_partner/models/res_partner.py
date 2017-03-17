@@ -21,3 +21,4 @@ class Partner(models.Model):
 
     # scan signature
     signature_img = fields.Binary('Signature scannee')
+    partner_origin = fields.Selection([('locale','Locale'), ('etrangere','Etrangère')], string='Origine', default='locale', required=True)

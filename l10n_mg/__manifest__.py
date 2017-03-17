@@ -22,12 +22,10 @@
     'category': 'Localization/Account Charts',
     'author': 'Frédéric Harison RAMANDANIARIVO',
     'depends': ['base', 'account',],
-    'data': [
-        'views/res_partner_views.xml',
-    ],
+    'data': [],
     'demo_xml': [],
     'auto_install': False,
     'installable': True,
-    'website': 'https://github.com/redykely/odoo_mg',
+    'website': 'https://github.com/redykely/odoomg',
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

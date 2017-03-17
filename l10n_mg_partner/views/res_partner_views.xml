@@ -9,6 +9,7 @@
 				<xpath expr="//field[@name='type']" position="before">
 					<field name="ref1"/>
 					<field name="ref2"/>
+					<field name="partner_origin"/>
 				</xpath>
 
 				<xpath expr="//page[@name='sales_purchases']" position="after">
