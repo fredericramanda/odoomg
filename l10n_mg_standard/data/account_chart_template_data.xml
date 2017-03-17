@@ -2,135 +2,135 @@
 <odoo>
   <record id="tag_account_achat_bien" model="account.account.tag">
     <field name="name">Achats de biens</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_achat_carburant" model="account.account.tag">
     <field name="name">Achat carburants</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_achat_revente" model="account.account.tag">
     <field name="name">Achats pour revente</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_achat_service" model="account.account.tag">
     <field name="name">Services exterieurs</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_achat_transport" model="account.account.tag">
     <field name="name">Transports</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_ca" model="account.account.tag">
     <field name="name">CA vente</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_ca_cession_immo" model="account.account.tag">
     <field name="name">Cession immobilisation</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_ca_export" model="account.account.tag">
     <field name="name">CA export</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_ca_lasm" model="account.account.tag">
     <field name="name">Livraison à soi-même</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_ca_transport" model="account.account.tag">
     <field name="name">CA transports</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_immo_corpo_eligible" model="account.account.tag">
     <field name="name">Immo corporelles éligibles</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_immo_corpo_non_eligible" model="account.account.tag">
     <field name="name">Immo corporelles non éligibles</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_immo_incorpo" model="account.account.tag">
     <field name="name">Immo incorporelles</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_collectee" model="account.account.tag">
     <field name="name">Compte TVA collectee</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_collectee_immo" model="account.account.tag">
     <field name="name">Compte TVA collectee sur immo</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_ded_bien" model="account.account.tag">
     <field name="name">Compte TVA deductible sur biens</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_ded_bien_import" model="account.account.tag">
     <field name="name">Compte TVA deductible sur imports</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_ded_immo" model="account.account.tag">
     <field name="name">Compte TVA deductible sur immo</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_ded_service" model="account.account.tag">
     <field name="name">Compte TVA deductible sur services ou consommables</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_ded_transport" model="account.account.tag">
     <field name="name">Compte TVA déductible sur carburants et transports</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_credit" model="account.account.tag">
     <field name="name">Crédit de TVA</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_account_tax_regul" model="account.account.tag">
     <field name="name">Régularisation TVA</field>
-    <field name="applicable">accounts</field>
+    <field name="applicability">accounts</field>
   </record>
   <record id="tag_tax_tva_coll_0_ad" model="account.account.tag">
     <field name="name">TVA_0_AD</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_coll_0_autre" model="account.account.tag">
     <field name="name">TVA_0_AUTRE</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_coll_0_export" model="account.account.tag">
     <field name="name">TVA_0_EXPORT</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_coll_20_diverse" model="account.account.tag">
     <field name="name">TVA_20_AUTRES</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_coll_20_immo" model="account.account.tag">
     <field name="name">TVA_20_IMMO</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_coll_20" model="account.account.tag">
     <field name="name">TVA_20</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_ded_0_achat" model="account.account.tag">
     <field name="name">TVA_ACH_0</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_ded_20" model="account.account.tag">
     <field name="name">TVA_ACH_20</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_ded_20_immo" model="account.account.tag">
     <field name="name">TVA_ACH_20_IMMO</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_ded_20_import" model="account.account.tag">
     <field name="name">TVA_ACH_20_IMPORT</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="tag_tax_tva_ded_20_service" model="account.account.tag">
     <field name="name">TVA_ACH_20_SERVICE</field>
-    <field name="applicable">taxes</field>
+    <field name="applicability">taxes</field>
   </record>
   <record id="pcg_mg_1011" model="account.account.template">
     <field name="name">Capital souscrit - non appelé</field>

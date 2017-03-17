@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-import chart_template
+from . import res_partner
