@@ -22,3 +22,12 @@
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
 import models
+from openerp import SUPERUSER_ID
+
+def _set_currency_to_mga(cr, registry):
+    cr.execute("UPDATE res_currency SET active = True WHERE name = 'MGA'")
+    currency_mga_ids = registry['res.currency'].search(cr, SUPERUSER_ID, [('name', '=', 'MGA')])
+    if currency_mga_ids:
+        my_company = registry['res.users'].browse(cr, SUPERUSER_ID, SUPERUSER_ID, {}).company_id
+        my_company.write({'currency_id': currency_mga_ids[0]})
+    # obj_company.write(cr, SUPERUSER_ID, [company_id], {'currency_id': registry['res.currency'].search(cr, SUPERUSER_ID, [('name', '=', 'MGA')])}, context=context)
