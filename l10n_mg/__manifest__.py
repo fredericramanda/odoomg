@@ -27,5 +27,6 @@
     'auto_install': False,
     'installable': True,
     'website': 'https://github.com/redykely/odoomg',
+    'post_init_hook': '_set_currency_to_mga',
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
