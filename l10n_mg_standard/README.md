@@ -1,5 +1,12 @@
-# Madagascar - Complément pour les sociétés assujetties à la TVA
+# Madagascar - Comptabilité et Fiscalité des sociétés assujetties à la TVA
 
-Contient des comptes additionnels, la définition des taxes et positions fiscales.
+Ce module est la base de la Comptabilité à Madagascar pour les sociétés assujetties à la tva.
+Comptatible avec odoo v9 et v10.
 
-Voir README complet
+# Usage
+
+* Créer la base de données avec la langue FR et le pays MG
+* Activer l'application Finances et Comptabilité qui va installer automatiquement le module l10n_mg
+* configurer le Nb de digits dans la fiche de la société (longueur de N° de comptes)
+* activer le module l10n_mg_standard pour intégrer le PCG sans TVA
+* faire appel à des spécialistes en implémentation odoo (modules finances) pour vous accompagner.

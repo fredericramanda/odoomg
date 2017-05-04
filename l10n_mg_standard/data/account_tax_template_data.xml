@@ -3,7 +3,7 @@
   <record id="tax_tva_coll_20_normale" model="account.tax.template">
     <field name="name">TVA_20</field>
     <field name="description">TVA collectées sur vente</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44570"/>
     <field name="refund_account_id" ref="pcg_mg_44570"/>
@@ -15,7 +15,7 @@
   <record id="tax_tva_coll_20_immo" model="account.tax.template">
     <field name="name">TVA_20_IMMO</field>
     <field name="description">TVA collectees sur production immobilisee ou cessions immo</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44571"/>
     <field name="refund_account_id" ref="pcg_mg_44571"/>
@@ -27,7 +27,7 @@
   <record id="tax_tva_coll_20_diverse" model="account.tax.template">
     <field name="name">TVA_20_DIVERSE</field>
     <field name="description">TVA collectees diverses</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44572"/>
     <field name="refund_account_id" ref="pcg_mg_44572"/>
@@ -69,7 +69,7 @@
   <record id="tax_tva_ded_20_biens" model="account.tax.template">
     <field name="name">TVA_ACH_20</field>
     <field name="description">TVA deductibles sur achats</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44560"/>
     <field name="refund_account_id" ref="pcg_mg_44560"/>
@@ -81,7 +81,7 @@
   <record id="tax_tva_ded_20_imports" model="account.tax.template">
     <field name="name">TVA_ACH_20_IMPORT</field>
     <field name="description">TVA deductibles sur importations</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44561"/>
     <field name="refund_account_id" ref="pcg_mg_44561"/>
@@ -93,7 +93,7 @@
   <record id="tax_tva_ded_20_immo" model="account.tax.template">
     <field name="name">TVA_ACH_20_IMMO</field>
     <field name="description">TVA deductibles sur immobilisations</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44562"/>
     <field name="refund_account_id" ref="pcg_mg_44562"/>
@@ -105,7 +105,7 @@
   <record id="tax_tva_ded_20_service" model="account.tax.template">
     <field name="name">TVA_ACH_20_SERVICE</field>
     <field name="description">TVA deductibles sur services exterieurs</field>
-    <field name="amount" eval="0.2"/>
+    <field name="amount" eval="20.0"/>
     <field name="amount_type">percent</field>
     <field name="account_id" ref="pcg_mg_44563"/>
     <field name="refund_account_id" ref="pcg_mg_44563"/>

@@ -22,7 +22,6 @@
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
 import models
-
 from odoo import SUPERUSER_ID
 
 def _set_currency_to_mga(cr, registry):
