@@ -155,9 +155,9 @@
   <record id="l10n_mg_pcg_tpe_chart_template" model="account.chart.template">
     <field name="property_account_receivable_id" ref="pcg_tpe_41"/>
     <field name="property_account_payable_id" ref="pcg_tpe_40"/>
-    <field name="property_account_expense_categ_id" ref="pcg_tpe_601"/>
-    <field name="property_account_income_categ_id" ref="pcg_tpe_701"/>
+    <field name="property_account_expense_categ_id" ref="pcg_tpe_607"/>
+    <field name="property_account_income_categ_id" ref="pcg_tpe_707"/>
     <field name="income_currency_exchange_account_id" ref="pcg_tpe_75"/>
-    <field name="expense_currency_exchange_account_id" ref="pcg_tpe_65"/>
+    <field name="expense_currency_exchange_account_id" ref="pcg_tpe_66"/>
   </record>
 </odoo>
