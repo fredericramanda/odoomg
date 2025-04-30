@@ -20,10 +20,4 @@
 # import
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
-
-import models
-from odoo import SUPERUSER_ID
-
-def _set_currency_to_mga(cr, registry):
-    cr.execute("UPDATE res_currency SET active = True WHERE name = 'MGA'")
-    cr.execute("UPDATE res_company SET currency_id = (select id from res_currency where name = 'MGA')");
+from . import models
