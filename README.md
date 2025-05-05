@@ -18,12 +18,11 @@ Le repository "l10n_mg" a été viré et effacé de github car n'a pas évolué 
 * Télécharger le module
 * Rajouter dans les "addonspaths"
 * Lors de la création d'une base de données, choisir le Pays : Madagascar
-* Activer le module Comptabilité et Finances qui va intégrer l10n_mg (QUI NE CONTIENT PAS DE PLAN COMPTABLE !!!)
-* Configurer le Nb de digits (longueur de comptes) dans la fiche de la société
+* Activer le module Comptabilité et Finances
 * Dans la configuration de la comptabilité, installer un schéma en choisissant le module qui convient à votre société
-  * l10n_mg_standard : usage du PCG et la société est assujettie à la TVA
-  * l10n_mg_pme : usage du PCG sans les taxes
-  * l10n_mg_tpe : si vous avez une petite société que vous pouvez gérer avec le Système minimal de trésorerie
+  * l10n_mg : usage du PCG et la société est assujettie à la TVA
+  * l10n_mg_pme : n'existe pas encore sur la version 17.0
+  * l10n_mg_tpe : n'existe pas encore sur la version 17.0
 * Vous pouvez installer autres modules s'il y en a plus tard !
 
 #Known issues / Roadmap
@@ -31,11 +30,6 @@ Le repository "l10n_mg" a été viré et effacé de github car n'a pas évolué 
 * TODO: validation par des spécialistes en comptabilité et finances et droits fiscaux Malagasy
 * TODO: revue des textes, titres, libellés, mots par des experts
 * TODO: reportings spécifiques
-
-# Credits
-
-* Equipe Informatique du Groupe Vidzar
-* Nos anciens stagiaires de l'ENI
 
 ## Contributors
 
