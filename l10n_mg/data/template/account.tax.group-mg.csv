@@ -1,3 +1,4 @@
 "id","name","country_id","tax_receivable_account_id","tax_payable_account_id","name@fr"
 "tax_group_tva_0","VAT 0%","base.mg","pcg_44560","pcg_4455","TVA 0%"
 "tax_group_tva_20","VAT 20%","base.mg","pcg_44560","pcg_4455","TVA 20%"
+"tax_group_local","Taxes locales","base.mg","pcg_447","pcg_447","Taxes locales"
