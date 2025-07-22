@@ -19,7 +19,7 @@
 "pcg_110","Profit carried forward","110000","equity","","False","Report à nouveau solde créditeur"
 "pcg_119","Loss carried forward","119000","equity","","False","Report à nouveau solde débiteur"
 "pcg_120","Profit for the financial year","120000","equity","","False","Résultat de l'exercice (bénéfice)"
-"pcg_128","Résultat en instance d'affectation","128000","asset_current","","False","Résultat en instance d'affectation"
+"pcg_128","Résultat en instance d'affectation","128000","equity_unaffected","","False","Résultat en instance d'affectation"
 "pcg_129","Loss for the financial year","129000","equity","","False","Résultat de l'exercice (perte)"
 "pcg_1311","Equipment grants - State","131100","equity","","False","Subvention d'équipement - Etat"
 "pcg_1312","Equipment grants - Regions","131200","equity","","False","Subvention d'équipement - Régions"
