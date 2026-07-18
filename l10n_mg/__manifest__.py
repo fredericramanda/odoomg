@@ -6,7 +6,7 @@
 ##############################################################################
 {
     'name': 'Madagascar - PCG et définition des TVA',
-    'version': '1.0',
+    'version': '19.0.0.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': 'Plan comptable général complet et définition et paramétrage des taxes',
     'icon': '/account/static/description/l10n.png',

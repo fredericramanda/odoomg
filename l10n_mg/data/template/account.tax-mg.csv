@@ -87,7 +87,7 @@
 "","","","","","","","","","","","","","","","100","tax","invoice","pcg_447","",""
 "","","","","","","","","","","","","","","","100","base","refund","","",""
 "","","","","","","","","","","","","","","","100","tax","refund","pcg_447","",""
-"vignette_touristique","Vignette Touristique","Vignette Touristique","Vignette Touristique","7500","fixed","21","sale","consu","1","tax_group_local","","","","","100","base","invoice","","","Taxe de séjour"
+"vignette_touristique","Vignette Touristique","Vignette Touristique","Vignette Touristique","7500","fixed","21","sale","consu","1","tax_group_local","","","","","100","base","invoice","","","Vignette Touristique"
 "","","","","","","","","","","","","","","","100","tax","invoice","pcg_447","",""
 "","","","","","","","","","","","","","","","100","base","refund","","",""
 "","","","","","","","","","","","","","","","100","tax","refund","pcg_447","",""
